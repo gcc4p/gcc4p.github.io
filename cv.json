@@ -2,10 +2,10 @@
   "basics": {
     "name": "Gülce Apaydın",
     "label": "Computer Science & Mathematics Student",
-    "image": "./profile.jpg",
+    "image": "./profile_me.jpg",
     "email": "gulce.apaydin@mail.mcgill.ca",
     "url": "https://johndoe.dev",
-    "summary": "Student at McGill University.",
+    "summary": "Full-time learner. Driven by curiosity and a passion for math & computer science. There’s so much more to learn, and I’m excited for the journey ahead. Ad astra!",
     "theme": "green",
     "location": {
       "city": "Montréal",
@@ -22,6 +22,11 @@
         "network": "GitHub",
         "username": "gcc4p",
         "url": "https://github.com/gcc4p"
+      },
+      {
+        "network": "YouTube",
+        "username": "gulceapaydn9413",
+        "url": "https://www.youtube.com/@gulceapaydn9413"
       }
     ]
   },
@@ -34,6 +39,7 @@
       "url": "https://www.autodesk.com/ca-en",
       "startDate": "2024-05-06",
       "endDate": "2024-08-23",
+      "summary": "Developed and maintained software applications for Autodesk's MotionBuilder and Maya products.",
       "achievements": [
         "In MotionBuilder,enhanced application stability by fixing critical defects for HiDPI support.",
         "Facilitated collaboration with external partners by resolving a CUDA build issue on Windows and Linux platforms."
@@ -52,7 +58,7 @@
       "location": "Montréal, QC",
       "url": "https://mcgill.hack4impact.org/",
       "startDate": "2024-01-10",
-      "endDate": "null",
+      "endDate": null,
       "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
       "highlights": [
         "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
@@ -76,7 +82,7 @@
       "location": "Montréal, QC",
       "url": "https://www.mcgill-csus.ca/",
       "startDate": "2024-01-10",
-      "endDate": "null",
+      "endDate": null,
       "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
       "highlights": [
         "Completed several client projects successfully"
@@ -103,7 +109,7 @@
       "location": "Montréal, QC",
       "url": "https://mcgillrobotics.com/auv",
       "startDate": "2023-09-01",
-      "endDate": "null",
+      "endDate": null,
       "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
       "highlights": [
         "Completed several client projects successfully"
@@ -208,7 +214,8 @@
         "Built with JavaScript and OpenWeatherMap API",
         "Responsive design"
       ],
-      "url": "https://github.com/thabnir/CookCheap"
+      "url": "https://github.com/thabnir/CookCheap",
+      "github": "https://github.com/thabnir/CookCheap"
     },
     {
       "name": "Fine Dining: A Survival Game",
