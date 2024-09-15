@@ -39,16 +39,20 @@
       "url": "https://www.autodesk.com/ca-en",
       "startDate": "2024-05-06",
       "endDate": "2024-08-23",
-      "summary": "Developed and maintained software applications for Autodesk's MotionBuilder and Maya products.",
+      "summary": "Worked on Autodesk's MotionBuilder and Maya products.",
       "achievements": [
         "In MotionBuilder,enhanced application stability by fixing critical defects for HiDPI support.",
-        "Facilitated collaboration with external partners by resolving a CUDA build issue on Windows and Linux platforms."
+        "Facilitated collaboration with external partners by resolving a CUDA build issue on Windows and Linux platforms.",
+        "Increased development efficiency by creating a script to locate all icons within the application, then integrated the first batch of SVG icons, modernizing the UI from outdated PNG formats.",
+        "In Maya, contributed to application reliability by fixing defects and adding small features.",
+        "Improved code quality and future-proofing by implementing unit tests, enhancing the overall stability of the code base."
       ],
       "skills": [
         "C++",
         "Qt",
         "Python",
-        "GitHub"
+        "GitHub",
+        "MEL"
       ]
     },
     {
@@ -59,17 +63,10 @@
       "url": "https://mcgill.hack4impact.org/",
       "startDate": "2024-01-10",
       "endDate": null,
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-      "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
+      "summary": "Developing websites for non-profit organizations.",
       "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
+        "Improved website usability by fixing several defects, enabling smooth donation tracking for UAEM through the MERN stack.",
+        "Currently working on another project for the Welcome Collective, developing an inventory website for volunteers to be able to check in and out items."
       ],
       "skills": [
         "React"
@@ -83,23 +80,17 @@
       "url": "https://www.mcgill-csus.ca/",
       "startDate": "2024-01-10",
       "endDate": null,
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
+      "summary": "Providing help to students with their computer science courses.",
       "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
+        "Enhanced student success by providing targeted debugging assistance and assignment guidance at the Helpdesk, which supports approximately 300 students per semester, resulting in improved understanding and performance in challenging courses.",
+        "Tutoring for the following courses: COMP 202 (Foundations of Programming), COMP 206 (Intro to Software Systems), COMP 250 (Intro to Computer Science), COMP 251 (Algorithms and Data Structures), COMP 273 (Intro to Computer Systems)."
       ],
       "skills": [
         "Python",
         "Java",
         "C",
-        "Data Structures and Algorithms"
+        "Data Structures and Algorithms",
+        "Bash"
       ]
     },
     {
@@ -110,17 +101,9 @@
       "url": "https://mcgillrobotics.com/auv",
       "startDate": "2023-09-01",
       "endDate": null,
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
+      "summary": "Developing software for the Autonomous Underwater Vehicle (AUV) team.",
       "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
+        "Increased vision accuracy by resolving 100% of defects in the Autonomous Underwater Vehicle’s ROS-based navigation system, significantly enhancing object detection for the RoboSub competition."
       ],
       "skills": [
         "Python",
@@ -136,17 +119,9 @@
       "url": "https://girlswhocodemcgill.wordpress.com/",
       "startDate": "2023-09-01",
       "endDate": "2024-05-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
+      "summary": "Volunteered to teach coding at local schools.",
       "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
+        "Improved coding literacy among 17 high school and elementary students through over 25 weekly lessons in Python and Scratch, by designing and delivering engaging lesson plans that led to significant improvements in their programming skills."
       ],
       "skills": [
         "Python",
@@ -199,10 +174,11 @@
     {
       "name": "Melo-N",
       "isActive": true,
-      "description": "A personal portfolio website to showcase my projects and skills.",
+      "description": "An AI-enhanced music genre transformation platform.",
       "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
+        "Developed at McHacks'11",
+        "Secured 2nd place overall out of 500 hackers.",
+        "Leveraged API integration and backend development with Python."
       ],
       "url": "https://melo-n.co/",
       "github": "https://github.com/gcc4p/melo-n"
@@ -210,10 +186,10 @@
     {
       "name": "CookCheap",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "description": "A culinary budget companion website.",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Developed at CodeJam'13",
+        "Enhanced user experience through API integration and advanced web scraping which streamlined recipe selection and meal planning."
       ],
       "url": "https://github.com/thabnir/CookCheap",
       "github": "https://github.com/thabnir/CookCheap"
@@ -221,20 +197,19 @@
     {
       "name": "Fine Dining: A Survival Game",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "description": "Engaging choose-your-own-adventure game taking a satirical approach to fine dining etiquette.",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Built for Harvard's CS50x course",
+        "Used Scratch and enhanced player engagement through interactive storytelling."
       ],
       "url": "https://scratch.mit.edu/projects/852580269/"
     },
     {
       "name": "Swap Party",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "description": "A website that connects users to swap clothes.",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Developed at HackHarvard 2023"
       ],
       "url": "https://devpost.com/software/swap-party"
     }  
