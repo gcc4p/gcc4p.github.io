@@ -5,7 +5,7 @@
     "image": "./profile_me.jpg",
     "email": "gulce.apaydin@mail.mcgill.ca",
     "url": "https://johndoe.dev",
-    "summary": "Full-time learner. Driven by curiosity and a passion for math & computer science. There’s so much more to learn, and I’m excited for the journey ahead. Ad astra!",
+    "summary": "Perpetual student. Driven by curiosity and a passion for math & computer science. There’s so much more to learn, and I’m excited for the journey ahead. Ad astra!",
     "theme": "green",
     "location": {
       "city": "Montréal",
@@ -124,7 +124,8 @@
       ],
       "skills": [
         "Python",
-        "ROS"
+        "ROS",
+        "Docker"
       ]
     },
     {
@@ -197,7 +198,7 @@
   "projects": [
     {
       "name": "Melo-N",
-      "isActive": false,
+      "isActive": true,
       "description": "A personal portfolio website to showcase my projects and skills.",
       "highlights": [
         "Built with React and Tailwind CSS",
