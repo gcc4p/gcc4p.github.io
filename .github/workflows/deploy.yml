@@ -24,8 +24,21 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
             version: 8.0.0
+      - name: Cache pnpm dependencies
+        uses: actions/cache@v3
+        with:
+            path: ~/.pnpm-store
+            key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+            restore-keys: |
+                ${{ runner.os }}-pnpm-
+      - name: Set npm registry timeout
+        run: |
+          pnpm config set fetch-timeout 60000
+          pnpm config set fetch-retries 5            
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        with:
+            package-manager: pnpm
         # with:
           # path: . # The root location of your Astro project inside the repository. (optional)
           # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
