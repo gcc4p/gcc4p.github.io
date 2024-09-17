@@ -20,6 +20,10 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -30,11 +34,9 @@ jobs:
             path: ~/.pnpm-store
             key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
             restore-keys: |
-                ${{ runner.os }}-pnpm-
-      - name: Set npm registry timeout
-        run: |
-          pnpm config set fetch-timeout 60000
-          pnpm config set fetch-retries 5            
+                ${{ runner.os }}-pnpm-   
+      - name: Install dependencies using pnpm
+        run: pnpm install --frozen-lockfile       
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         # with:
