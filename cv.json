@@ -32,6 +32,24 @@
   },
   "work": [
     {
+      "name": "McGill AI Society",
+      "position": "VP Kernel",
+      "location_type": "On site",
+      "location": "Montréal, QC",
+      "url": "https://mcgillai.com/",
+      "startDate": "2024-10-10",
+      "endDate": null,
+      "summary": "Leading recruitment and management for research and project teams in the Kernel initiative.",
+      "achievements": [
+        "Recruiting and managing research and project teams.",
+        "Finding companies and researchers around Montréal to collaborate with.",
+        "Regular check-ins with each team on their progress.",
+        "Aid in publishing new research in different scientific journals.",
+        "Help in promoting the project.",
+        "Constant communication with different portfolios."
+      ]
+    },
+    {
       "name": "Autodesk",
       "position": "Software Developer Intern",
       "location_type": "On site",
@@ -69,7 +87,8 @@
         "Currently working on another project for the Welcome Collective, developing an inventory website for volunteers to be able to check in and out items."
       ],
       "skills": [
-        "React"
+        "React",
+        "TypeScript"
       ]
     },
     {
@@ -100,7 +119,7 @@
       "location": "Montréal, QC",
       "url": "https://mcgillrobotics.com/auv",
       "startDate": "2023-09-01",
-      "endDate": null,
+      "endDate": "2024-10-10",
       "summary": "Developing software for the Autonomous Underwater Vehicle (AUV) team.",
       "achievements": [
         "Increased vision accuracy by resolving 100% of defects in the Autonomous Underwater Vehicle’s ROS-based navigation system, significantly enhancing object detection for the RoboSub competition."
