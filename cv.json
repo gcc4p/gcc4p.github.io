@@ -32,13 +32,24 @@
   },
   "work": [
     {
+      "name": "Microsoft",
+      "position": "Software Engineer Intern",
+      "location_type": "On site",
+      "location": "Vancouver, BC",
+      "url": "https://blogs.microsoft.com/vancouver/",
+      "startDate": "2025-06-06",
+      "endDate": "2025-08-22",
+      "summary": null,
+      "achievements": null
+    },
+    {
       "name": "McGill AI Society",
       "position": "VP Kernel",
       "location_type": "On site",
       "location": "Montréal, QC",
       "url": "https://mcgillai.com/",
       "startDate": "2024-10-10",
-      "endDate": null,
+      "endDate": "2025-04-01",
       "summary": "Leading recruitment and management for research and project teams in the Kernel initiative.",
       "achievements": [
         "Recruiting and managing research and project teams.",
